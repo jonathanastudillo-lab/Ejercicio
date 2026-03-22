@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMX06Q1rYfV3cNs8ZdgHqev",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jonathanastudillo-lab/Ejercicio/blob/main/Prueba%20desde%20Coolab\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "-C9z_5yvoFPS"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "739c9009",
+        "outputId": "71005dd1-5a9e-466d-e20d-8c1420ce6286"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "# Generate 10 random integers between 10 and 100 (inclusive)\n",
+        "random_numbers = [random.randint(10, 100) for _ in range(10)]\n",
+        "\n",
+        "print(random_numbers)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[47, 72, 100, 27, 80, 23, 84, 21, 76, 84]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

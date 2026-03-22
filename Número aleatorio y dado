@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOtWHFgDscLCDOdo7U/WOmp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jonathanastudillo-lab/Ejercicio/blob/main/N%C3%BAmero%20aleatorio%20y%20dado\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "-C9z_5yvoFPS"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "739c9009",
+        "outputId": "90409b54-f7ae-44cb-9a96-e03a1ecb336f"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "# Generate 10 random integers between 10 and 100 (inclusive)\n",
+        "random_numbers = [random.randint(10, 100) for _ in range(10)]\n",
+        "\n",
+        "print(random_numbers)"
+      ],
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[21, 26, 30, 66, 32, 12, 75, 92, 60, 93]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bc06dd5f",
+        "outputId": "54a5cb27-7d96-433a-ebb8-d5f84a5f3812"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "# Simulate rolling a standard six-sided die\n",
+        "die_roll = random.randint(1, 6)\n",
+        "\n",
+        "print(f\"Has lanzado un {die_roll}!\")"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Has lanzado un 5!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMX06Q1rYfV3cNs8ZdgHqev",
+      "authorship_tag": "ABX9TyOtWHFgDscLCDOdo7U/WOmp",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -42,7 +42,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "739c9009",
-        "outputId": "71005dd1-5a9e-466d-e20d-8c1420ce6286"
+        "outputId": "90409b54-f7ae-44cb-9a96-e03a1ecb336f"
       },
       "source": [
         "import random\n",
@@ -52,13 +52,41 @@
         "\n",
         "print(random_numbers)"
       ],
-      "execution_count": 1,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "[47, 72, 100, 27, 80, 23, 84, 21, 76, 84]\n"
+            "[21, 26, 30, 66, 32, 12, 75, 92, 60, 93]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bc06dd5f",
+        "outputId": "54a5cb27-7d96-433a-ebb8-d5f84a5f3812"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "# Simulate rolling a standard six-sided die\n",
+        "die_roll = random.randint(1, 6)\n",
+        "\n",
+        "print(f\"Has lanzado un {die_roll}!\")"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Has lanzado un 5!\n"
           ]
         }
       ]
